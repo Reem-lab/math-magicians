@@ -17,7 +17,7 @@ You may also see any lint errors in the console.
 
 <!-- Feel Free to Add, Update, Delete Any Section you find needs so -->
 
-# LeaderBoard
+# Math Magicians
 
 > This is a simple react project that contain a single page application (SPA) And a simple caculator to make some calculation and there is a section you can see some Math quotes. Ⓜ💯
 

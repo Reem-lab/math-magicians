@@ -1,0 +1,89 @@
+:root {
+  --primary: #d81e5b;
+  --secondry: #8c38ff;
+  --dark: #131a26;
+  --light: #eee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+  background-color: var(--light);
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 2px 64px rgba(0, 0, 0, 0.2);
+}
+
+.display {
+  padding: 16px;
+  text-align: right;
+  background-color: var(--dark);
+  color: var(--light);
+  font-size: 24px;
+}
+
+button {
+  appearance: none;
+  border: 1px solid grey;
+  color: var(--light);
+  outline: none;
+  padding: 16px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.order {
+  display: flex;
+}
+
+.operators {
+  display: flex;
+  flex-direction: column;
+}
+
+.operators button {
+  height: 57px;
+  background-color: var(--primary);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.numbers button {
+  color: var(--dark);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.signal button {
+  color: var(--dark);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.zero {
+  width: 200px;
+}
