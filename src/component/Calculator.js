@@ -1,6 +1,6 @@
 import React from 'react';
 
-class App extends React.Component {
+class Calculator extends React.Component {
   render() {
     const createDigits = () => {
       const digits = [];
@@ -60,4 +60,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default Calculator;
