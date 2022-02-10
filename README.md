@@ -21,7 +21,7 @@ You may also see any lint errors in the console.
 
 > This is a simple react project that contain a single page application (SPA) And a simple caculator to make some calculation and there is a section you can see some Math quotes. Ⓜ💯
 
-<img src="Capture.PNG" width="70%" />
+<img src="Capture.PNG" width="50%" height="50%" />
 
 ## Built With
 
