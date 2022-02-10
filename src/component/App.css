@@ -33,7 +33,7 @@ body {
 }
 
 .display {
-  padding: 16px;
+  padding: 27px;
   text-align: right;
   background-color: var(--dark);
   color: var(--light);
