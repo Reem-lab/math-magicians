@@ -17,7 +17,8 @@ In the project directory, you can run:
 
 > This is a simple react project that contain a single page application (SPA) And a simple caculator to make some calculation and there is a section you can see some Math quotes. Ⓜ💯
 
-<img src="Capture.PNG" width="50%" height="25%" />
+<!-- <img src="Capture.PNG" width="50%" height="25%" /> -->
+![CHEESE!](video.mp4)
 
 ## Built With
 
