@@ -17,9 +17,16 @@ In the project directory, you can run:
 
 > This is a simple react project that contain a single page application (SPA) And a simple caculator to make some calculation and there is a section you can see some Math quotes. Ⓜ💯
 
+<<<<<<< HEAD
+## Video Demo 📽
+
+https://user-images.githubusercontent.com/58553711/154146664-16b06368-8ca6-4deb-8282-b995f29d2801.mp4
+
+=======
 <!-- <img src="Capture.PNG" width="50%" height="25%" /> -->
 ## Video Demo 📽
 
+>>>>>>> 5456eb5d20f600e265a429f949eabb4f55cf28d0
 
 
 ## Built With
