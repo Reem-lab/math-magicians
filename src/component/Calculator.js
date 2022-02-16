@@ -16,6 +16,7 @@ const Calculator = () => {
 
   return (
     <div className="App">
+      <h2 className="heading">Lets do some Math : 🧮</h2>
       <div className="calculator">
         <div className="display">
           {total}
