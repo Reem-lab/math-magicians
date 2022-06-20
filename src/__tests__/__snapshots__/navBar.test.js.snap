@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<nav
+  className="navBar"
+>
+  <h1>
+    Math Magicians
+  </h1>
+  <ul
+    className="ul-links"
+  >
+    <li
+      className="li-links"
+    >
+      <a
+        aria-current="page"
+        className="links active-link"
+        href="/"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        Home
+      </a>
+    </li>
+    <li
+      className="li-links"
+    >
+      <a
+        aria-current={null}
+        className="links"
+        href="/Calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+    </li>
+    <li
+      className="li-links"
+    >
+      <a
+        aria-current={null}
+        className="links"
+        href="/quotes"
+        onClick={[Function]}
+      >
+        Quotes
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

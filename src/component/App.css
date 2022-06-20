@@ -1,0 +1,146 @@
+:root {
+  --primary: #1a669a;
+  --secondry: #8c38ff;
+  --dark: #131a26;
+  --light: #eee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+  background-color: var(--light);
+  margin: 0 auto;
+  background-image: url('/math4.jpg');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.4;
+  color: var(--light);
+  height: 100vh;
+  max-width: 800px;
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  align-self: flex-start;
+  margin-top: 80px;
+  margin-right: 30px;
+}
+
+.calculator {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 2px 64px rgba(0, 0, 0, 0.2);
+}
+
+.display {
+  padding: 27px;
+  text-align: right;
+  background-color: var(--dark);
+  color: var(--light);
+  font-size: 24px;
+}
+
+button {
+  appearance: none;
+  border: 1px solid grey;
+  color: var(--light);
+  outline: none;
+  padding: 16px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.order {
+  display: flex;
+}
+
+.operators {
+  display: flex;
+  flex-direction: column;
+}
+
+.operators button {
+  height: 57px;
+  background-color: var(--primary);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.numbers button {
+  color: var(--dark);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.signal button {
+  color: var(--dark);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.zero {
+  width: 200px;
+}
+
+.navBar {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ul-links {
+  display: flex;
+  gap: 6px;
+}
+
+.li-links {
+  list-style: none;
+  text-decoration: none;
+}
+
+.links {
+  color: var(--light);
+  text-decoration: none;
+}
+
+.active-link {
+  color: #8c38ff;
+  text-decoration: underline;
+}
+
+.quotes {
+  margin-top: 50px;
+}
+
+.homeDiv {
+  margin-top: 50px;
+}
+
+.homeDiv h2 {
+  margin-bottom: 30px;
+}
+
+.homeDiv p {
+  margin-bottom: 30px;
+}
